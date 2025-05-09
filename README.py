@@ -26,16 +26,16 @@ class Calculator:
             return None
 
 
-# Створимо екземпляр класу
+ 
 calc = Calculator()
 
-# Демонстрація роботи
-print("Ділення 10 на 2:", calc.divide(10, 2))         # 5.0
-print("Ділення на 0:", calc.divide(5, 0))              # Помилка
-print("Ділення з рядком:", calc.divide(5, "a"))        # Помилка
+ 
+print("Ділення 10 на 2:", calc.divide(10, 2))        
+print("Ділення на 0:", calc.divide(5, 0))            
+print("Ділення з рядком:", calc.divide(5, "a"))        
 
-print("Конвертація '123':", calc.convert_to_int("123"))    # 123
-print("Конвертація 'abc':", calc.convert_to_int("abc"))    # Помилка
+print("Конвертація '123':", calc.convert_to_int("123"))     
+print("Конвертація 'abc':", calc.convert_to_int("abc"))     
 
-print("Елемент списку [1, 2, 3], індекс 1:", calc.get_element([1, 2, 3], 1))  # 2
-print("Невірний індекс:", calc.get_element([1, 2, 3], 10))                    # Помилка
+print("Елемент списку [1, 2, 3], індекс 1:", calc.get_element([1, 2, 3], 1))  
+print("Невірний індекс:", calc.get_element([1, 2, 3], 10))                    
